@@ -31,7 +31,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure subscription 1(095eb3b1-0317-4e50-8340-d4d8345bc143)'
+    azureSubscription: 'Azure subscription 1(64e167cd-27c0-4382-95bf-f0d922dee108)'
     appType: 'webApp'
     WebAppName: 'demositecore'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
